@@ -5,7 +5,6 @@ description = "A minimal rest API"
 authors = ["Gbenga Adeyi <adeyigbenga005@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "minimal_api"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
