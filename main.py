@@ -18,7 +18,7 @@ class Track(str, Enum):
     VIDEO_MARKETING = "video_marketing"
 
 
-@app.get("/")
+@app.get("/api")
 def index(slack_name: str = "Gbenga Adeyi", track: Track = Track.BACKEND):
     timestamp = datetime.now()
     return {
